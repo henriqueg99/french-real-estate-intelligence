@@ -1,0 +1,25 @@
+# Environnement Python
+.venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données téléchargées ou produites localement
+data/raw/**
+data/interim/**
+data/processed/**
+
+# Bases de données locales
+*.duckdb
+*.db
+
+# Variables secrètes
+.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db
